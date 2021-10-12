@@ -253,6 +253,18 @@ JiPP_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug
 //Value Computed by CMake
 JiPP_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP
 
+//Value Computed by CMake
+allocation_basics_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/allocation_basics
+
+//Value Computed by CMake
+allocation_basics_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/allocation_basics
+
+//Value Computed by CMake
+simpleCalc_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/simpleCalc
+
+//Value Computed by CMake
+simpleCalc_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/simpleCalc
+
 
 ########################
 # INTERNAL cache entries
@@ -366,7 +378,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=3
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
