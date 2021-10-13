@@ -3,14 +3,12 @@ project(simpleCalc)
 
 set(CMAKE_CXX_STANDARD 17)
 
-include_directories(${CMAKE_SOURCE_DIR}/simpleCalc/include)
+include_directories(include)
 
 add_executable(simpleCalc
         src/main.cpp
-        src/calc.cpp)
-
-target_link_libraries(simpleCalc calc)
-
+        src/calc.cpp
+        include/calc.h)
 
 
-set(CMAKE_EXE_LINKER_FLAGS ${CMAKE_EXE_LINKER_FLAGS} "-static")
+

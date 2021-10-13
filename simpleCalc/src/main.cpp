@@ -4,8 +4,6 @@
 using namespace std;
 
 
-
-
 int main(int argc, char *argv[]) {
     if((string)argv[1] == "add" && (string)argv[1] == "subtract" && argc != 4){
             cout << "Error - incorrectly entered data!" << endl;
