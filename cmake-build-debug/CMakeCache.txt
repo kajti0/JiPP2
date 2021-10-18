@@ -254,10 +254,28 @@ JiPP_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug
 JiPP_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP
 
 //Value Computed by CMake
+PoleFigury_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/PoleFigury
+
+//Value Computed by CMake
+PoleFigury_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/PoleFigury
+
+//Value Computed by CMake
 allocation_basics_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/allocation_basics
 
 //Value Computed by CMake
 allocation_basics_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/allocation_basics
+
+//Value Computed by CMake
+maxTab_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/maxTab
+
+//Value Computed by CMake
+maxTab_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/maxTab
+
+//Value Computed by CMake
+randomNumbers_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/randomNumbers
+
+//Value Computed by CMake
+randomNumbers_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/randomNumbers
 
 //Value Computed by CMake
 simpleCalc_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/simpleCalc
@@ -378,7 +396,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

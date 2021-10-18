@@ -7,5 +7,8 @@ add_subdirectory(allocation_basics)
 add_subdirectory(simpleCalc)
 add_subdirectory(firstLib)
 add_subdirectory(firstLibCall)
+add_subdirectory(PoleFigury)
+add_subdirectory(randomNumbers)
+add_subdirectory(maxTab)
 
 
