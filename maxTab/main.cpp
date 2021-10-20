@@ -8,23 +8,24 @@
 
 using namespace std;
 
-int maxTab(tab []){
+int maxTab(int tab []){
     int max;
     max = tab[0];
-    for(int i=0; i<sizof(tab); i++){
+    for(int i=0; i<50; i++){
         if(max<tab[i]){
             max = tab[i];
         }
     }
+    return max;
 }
 
 int main(int argc, char *argv[]){
     srand(time(NULL));
     int *tab;
-    tab = new int [40];
-    for (int i = 0; i < sizeof(tab); i++){
-        tab[i] = rand
+    tab = new int [50];
+    for (int i = 0; i < 50; i++){
+        tab[i] = 1 + rand() % (100);
     }
-
-
+    cout << maxTab(tab) << endl;
+    return 0;
 }

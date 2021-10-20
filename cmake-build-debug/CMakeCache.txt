@@ -266,6 +266,48 @@ allocation_basics_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-buil
 allocation_basics_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/allocation_basics
 
 //Value Computed by CMake
+errors1_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/errors1
+
+//Value Computed by CMake
+errors1_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/errors1
+
+//Value Computed by CMake
+errors2_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/errors2
+
+//Value Computed by CMake
+errors2_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/errors2
+
+//Value Computed by CMake
+indicators1_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/indicators1
+
+//Value Computed by CMake
+indicators1_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/indicators1
+
+//Value Computed by CMake
+indicators2_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/indicators2
+
+//Value Computed by CMake
+indicators2_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/indicators2
+
+//Value Computed by CMake
+indicators3_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/indicators3
+
+//Value Computed by CMake
+indicators3_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/indicators3
+
+//Value Computed by CMake
+indicators4_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/indicators4
+
+//Value Computed by CMake
+indicators4_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/indicators4
+
+//Value Computed by CMake
+indicators_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/indicators
+
+//Value Computed by CMake
+indicators_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/indicators
+
+//Value Computed by CMake
 maxTab_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/maxTab
 
 //Value Computed by CMake
@@ -276,6 +318,12 @@ randomNumbers_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-de
 
 //Value Computed by CMake
 randomNumbers_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/randomNumbers
+
+//Value Computed by CMake
+reverseTab_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/reverseTab
+
+//Value Computed by CMake
+reverseTab_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/reverseTab
 
 //Value Computed by CMake
 simpleCalc_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/simpleCalc
@@ -396,7 +444,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=15
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

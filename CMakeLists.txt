@@ -10,5 +10,11 @@ add_subdirectory(firstLibCall)
 add_subdirectory(PoleFigury)
 add_subdirectory(randomNumbers)
 add_subdirectory(maxTab)
-
+add_subdirectory(reverseTab)
+add_subdirectory(indicators1)
+add_subdirectory(indicators2)
+add_subdirectory(indicators3)
+add_subdirectory(indicators4)
+add_subdirectory(errors1)
+add_subdirectory(errors2)
 
