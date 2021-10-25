@@ -21,7 +21,7 @@ int main(int argc, char *argv[]){
     try{
         wynik(a,b);
     }
-    catch (invalid_argument& e){
+    catch (invalid_argument e){
         cerr << e.what() << endl;
         return -1;
     }

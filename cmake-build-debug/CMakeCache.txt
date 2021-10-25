@@ -266,6 +266,30 @@ allocation_basics_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-buil
 allocation_basics_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/allocation_basics
 
 //Value Computed by CMake
+class1_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/class1
+
+//Value Computed by CMake
+class1_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/class1
+
+//Value Computed by CMake
+class2_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/class2
+
+//Value Computed by CMake
+class2_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/class2
+
+//Value Computed by CMake
+class3_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/class3
+
+//Value Computed by CMake
+class3_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/class3
+
+//Value Computed by CMake
+class4_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/class4
+
+//Value Computed by CMake
+class4_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/class4
+
+//Value Computed by CMake
 errors1_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/errors1
 
 //Value Computed by CMake
@@ -330,6 +354,18 @@ simpleCalc_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug
 
 //Value Computed by CMake
 simpleCalc_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/simpleCalc
+
+//Value Computed by CMake
+structures1_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/structures_1&2
+
+//Value Computed by CMake
+structures1_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/structures_1&2
+
+//Value Computed by CMake
+structures2_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/structures_3&4
+
+//Value Computed by CMake
+structures2_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/structures_3&4
 
 
 ########################
@@ -444,7 +480,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=15
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=21
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
