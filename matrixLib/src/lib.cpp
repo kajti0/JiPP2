@@ -1,5 +1,16 @@
 #include "lib.h"
 
+/*sprawdza za pomocą cin.fail, czy
+ * wystąpił błąd podczas wszytywania
+ * danych */
+void cinCheck(){
+    if(cin.fail() == 1){
+        cout << "Podano niepoprawny typ danych\n";
+        exit(1);
+    }
+}
+
+//alokuje tablicę i zwraca wskaźnik do niej
 int **createInt(int wiersze, int kolumny) {
     int **matrix = new int *[wiersze];
     for(int i = 0; i < wiersze; i++){
@@ -16,11 +27,13 @@ double **createDouble(int wiersze, int kolumny) {
     return matrix;
 }
 
+//wczytuje tablicę, zabezpiecza przed podaniem znaków innych niż cyfra
 void wczytaj (int **matrix, int wiersze, int kolumny, string which){
     for(int i = 0; i < wiersze; i++){
         for(int j = 0; j < kolumny; j++){
             cout << "Matrix" << which << i+1 << j+1 <<  " = ";
             cin >> matrix[i][j];
+            cinCheck();
         }
     }
 }
@@ -30,10 +43,13 @@ void wczytaj (double **matrix, int wiersze, int kolumny, string which){
         for(int j = 0; j < kolumny; j++){
             cout << "Matrix" << which << i+1 << j+1 <<  " = ";
             cin >> matrix[i][j];
+            cinCheck();
         }
     }
 }
 
+
+//wyświetla wynik
 void show(int **matrix, int wiersze, int kolumny){
     cout << "Wynik: " << endl;
     for (int i = 0; i < wiersze; i++){
@@ -54,6 +70,7 @@ void show(double **matrix, int wiersze, int kolumny){
     }
 }
 
+//dodawanie element po elemencie w podwójnej pętli for
 int **addMatrix(int **matrixA, int **matrixB, int wiersze, int kolumny){
     int **sumMatrix = createInt(wiersze, kolumny);
     for(int i = 0; i < wiersze; i++){
@@ -74,6 +91,7 @@ double **addMatrix(double **matrixA, double **matrixB, int wiersze, int kolumny)
     return sumMatrix;
 }
 
+//odejmowanie element po elemencie w podwójnej pętli for
 int **subtractMatrix(int **matrixA, int **matrixB, int wiersze, int kolumny){
     int **wynik = createInt(wiersze, kolumny);
     for(int i = 0; i < wiersze; i++){
@@ -94,6 +112,10 @@ double **subtractMatrix(double **matrixA, double **matrixB, int wiersze, int kol
     return wynik;
 }
 
+/*mnożenie macierzy przez macierz w potrójnej pętli for,
+ * trzecia pętla zbiera sumę do jednego elementu
+ * macierzy wynikowej
+ */
 int **multiplyMatrix(int **matrixA, int **matrixB, int wierszeA, int kolumnyA, int kolumnyB){
     int **wynik = createInt(wierszeA, kolumnyB);
     for (int i = 0; i < wierszeA; i++){
@@ -120,6 +142,7 @@ double **multiplyMatrix(double **matrixA, double **matrixB, int wierszeA, int ko
     return wynik;
 }
 
+//mnożenie każdego elementu macierzy przez podany skalar
 int **multiplyByScalar(int **matrixA, int wiersze, int kolumny, int skalar){
     for(int i = 0; i < wiersze; i++){
         for(int j = 0; j < kolumny; j++){
@@ -138,6 +161,7 @@ double **multiplyByScalar(double **matrixA, int wiersze, int kolumny, double ska
     return matrixA;
 }
 
+//przepisanie elementów do macierzy wynikowej w odwrotnej kolejności (zamiana kolumn z wierszami)
 int **transpozeMatrix(int **matrixA, int wiersze, int kolumny){
     int **wynik = createInt(kolumny, wiersze);
     for(int i = 0; i < wiersze; i++){
@@ -158,6 +182,7 @@ double **transpozeMatrix(double **matrixA, int wiersze, int kolumny){
     return wynik;
 }
 
+//potęgowanie - stworzenie drugiej macierzy A i mnożenie jej aż do uzyskania wyniku
 int **powerMatrix(int **matrixA, int power, int wiersze, int kolumny){
     int **wynik = createInt(wiersze, kolumny);
     for(int i = 0; i < wiersze; i++){
@@ -184,6 +209,7 @@ double **powerMatrix(double **matrixA, int power, int wiersze, int kolumny){
     return wynik;
 }
 
+//funkcja pomocnicza skracająca macierz do liczenia wyznacznika
 void detPom(int **matrixA, int **pom, int p, int q, int size){
     int x = 0, y = 0;
     for(int i = 0; i < size; i++){
@@ -199,6 +225,7 @@ void detPom(int **matrixA, int **pom, int p, int q, int size){
     }
 }
 
+//funkcja rekurencyjnie licząca wyznacznik, skracająca macierz do momentu, aż stanie się jednoelementowa
 int determinantMatrix(int **matrixA, int wiersze, int kolumny){
     int wynik = 0;
     if(wiersze == 1){
@@ -244,6 +271,7 @@ double determinantMatrix(double **matrixA, int wiersze, int kolumny){
     return wynik;
 }
 
+//funkcja sprawdzająca, czy elementy poza przekątną są różne od zera
 bool matrixIsDiagonal(int **matrixA, int wiersze, int kolumny){
     for(int i = 0; i < wiersze; i++){
         for(int j = 0; j < kolumny; j++){
@@ -266,6 +294,7 @@ bool matrixIsDiagonal(double **matrixA, int wiersze, int kolumny){
     return true;
 }
 
+//zamiana dwóch wartości przez referencję
 void swap(int &a, int &b){
     int pom = a;
     a = b;
@@ -278,6 +307,7 @@ void swap(double &a, double &b){
     b =  pom;
 }
 
+//sortowanie bąbalkowe tablicy jednowymiarowej z wykorzystaniem powyższego swapa
 int *sortRow(int *tab, int kolumny){
     for(int i = 0; i < kolumny; i++){
         for(int j = 1; j < kolumny - i; j++){
@@ -300,6 +330,7 @@ double *sortRow(double *tab, int kolumny){
     return tab;
 }
 
+//funkcja sortująca rzędy w macierzy wykorzystująca wyżej napisane sortowanie pojedynczego rzędu
 int **sortRowsInMatrix(int **matrixA, int wiersze, int kolumny){
     for(int i = 0; i < wiersze; i++){
         sortRow(matrixA[i], kolumny);

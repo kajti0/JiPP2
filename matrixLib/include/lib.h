@@ -3,9 +3,11 @@
 
 #include <iostream>
 #include <cstdlib>
+#include <limits>
 
 using namespace std;
 
+void cinCheck();
 int **createInt(int wiersze,int kolumny);
 double **createDouble(int wiersze,int kolumny);
 void wczytaj (int **matrix, int wiersze, int kolumny, string which);
@@ -24,7 +26,7 @@ int **transpozeMatrix(int **matrixA, int wiersze, int kolumny);
 double **transpozeMatrix(double **matrixA, int wiersze, int kolumny);
 int **powerMatrix(int **matrixA, int power, int wiersze, int kolumny);
 double **powerMatrix(double **matrixA, int power, int wiersze, int kolumny);
-void detPom(int **matrixA, double **pom, int p, int q, int size);
+void detPom(int **matrixA, int **pom, int p, int q, int size);
 int determinantMatrix(int **matrixA, int wiersze, int kolumny);
 void detPom(double **matrixA, double **pom, int p, int q, int size);
 double determinantMatrix(double **matrixA, int wiersze, int kolumny);
