@@ -210,6 +210,77 @@ int main(int argc, char *argv[]){
             exit(1);
         }
     }
+    else if(choice == "swap"){
+        int choice;
+        cout << "Czy twoje obliczenia będą wykraczać poza zakres int? (1 - tak, 0 - nie)\n";
+        cin >> choice;
+        cinCheck();
+        if (choice == 1){
+            int a, b;
+            cout << "Podaj a: ";
+            cin >> a;
+            cinCheck();
+            cout << "Podaj b: ";
+            cin >> b;
+            cinCheck();
+            swap(a, b);
+            cout << "a= " << a << "b= " << b << endl;
+        }
+        else if(choice == 0){
+            double a, b;
+            cout << "Podaj a: ";
+            cin >> a;
+            cinCheck();
+            cout << "Podaj b: ";
+            cin >> b;
+            cinCheck();
+            swap(a, b);
+            cout << "a= " << a << "\nb= " << b << endl;
+        }
+    }
+    else if(choice == "sortRow"){
+        int choice, size;
+        cout << "Czy twoje obliczenia będą wykraczać poza zakres int? (1 - tak, 0 - nie)\n";
+        cin >> choice;
+        cinCheck();
+        cout << "Podaj rozmiar wiersza (ilość liczb)\n";
+        cin >> size;
+        cinCheck();
+        if(choice==0){
+            int *tab = new int(size);
+            cout << "Podaj dane: ";
+            for(int i = 0; i<size; i++){
+                cin >> tab[i];
+                cinCheck();
+            }
+            sortRow(tab, size);
+            cout << "{ ";
+            for(int i = 0; i<size; i++){
+                cout <<  tab[i];
+                if(size < i-1){
+                    cout << ", ";
+                }
+            }
+            cout << "}";
+        }
+        if(choice==1){
+            double *tab = new double(size);
+            cout << "Podaj dane: ";
+            for(int i = 0; i<size; i++){
+                cin >> tab[i];
+                cinCheck();
+            }
+            sortRow(tab, size);
+            cout << "{ ";
+            for(int i = 0; i<size; i++){
+                cout <<  tab[i];
+                if(i < size - 1){
+                    cout << ", ";
+                }
+            }
+            cout << "}";
+        }
+    }
     else if(choice == "sortRowsInMatrix"){
         int wiersze, kolumny, operation;
         cout << "Podaj ilość wierszy i kolumn w macierzy: ";
