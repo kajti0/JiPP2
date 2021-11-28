@@ -7,22 +7,59 @@
 using namespace std;
 
 struct car{
+private:
     string marka;
     string model;
     int rok;
     string kolor;
     int wypadki;
-} nr1, nr2, nr3, nr4;
+
+public:
+    string getMarka(){
+        return marka;
+    }
+    string getModel(){
+        return model;
+    }
+    int getRok(){
+        return rok;
+    }
+    string getKolor(){
+        return kolor;
+    }
+    int getWypadki(){
+        return wypadki;
+    }
+    void setMarka(string marka){
+        this->marka = marka;
+    }
+    void setModel(string model){
+        this->model = model;
+    }
+    void setRok(int rok){
+        this->rok = rok;
+    }
+    void setKolor(string kolor){
+        this->kolor = kolor;
+    }
+    void setWypadki(int wypadki){
+        this->wypadki = wypadki;
+    }
+} nr1, nr2;
 
 int main(){
-    nr1 = {"Renault", "Clio", 2009, "Biały", 3};
-    nr2 = {"BMW", "M5", 2020, "Carbon Black", 0};
-    nr3 = {"Nissan", "Primera", 2015, "Czerwony", 1};
-    nr4 = {"Peugeot", "206", 2002, "Srebrny", 5};
+    nr1.setMarka("Renault");
+    nr1.setModel("Clio");
+    nr1.setRok(2009);
+    nr1.setKolor("Biały");
+    nr1.setWypadki(3);
+    nr2.setMarka("BMW");
+    nr2.setModel("M5");
+    nr2.setRok(2020);
+    nr2.setKolor("Carbon Black");
+    nr2.setWypadki(0);
     cout << "Marka\tModel\tRok produkcji\tKolor\t\tLiczba wypadkow" << endl;
-    cout << nr1.marka << "\t" << nr1.model << "\t" << nr1.rok << "\t\t" << nr1.kolor << "\t\t" << nr1.wypadki << endl;
-    cout << nr2.marka << "\t" << nr2.model << "\t" << nr2.rok << "\t\t" << nr2.kolor << "\t" << nr2.wypadki << endl;
-    cout << nr3.marka << "\t" << nr3.model << "\t" << nr3.rok << "\t\t" << nr3.kolor << "\t" << nr3.wypadki << endl;
-    cout << nr4.marka << "\t" << nr4.model << "\t" << nr4.rok << "\t\t" << nr4.kolor << "\t\t" << nr4.wypadki << endl;
+    cout << nr1.getMarka() << "\t" << nr1.getModel() << "\t" << nr1.getRok() << "\t\t" << nr1.getKolor() << "\t\t" << nr1.getWypadki() << endl;
+    cout << nr2.getMarka() << "\t" << nr2.getModel() << "\t" << nr2.getRok() << "\t\t" << nr2.getKolor() << "\t" << nr2.getWypadki() << endl;
     return 0;
 }

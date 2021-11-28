@@ -13,8 +13,11 @@ public:
     int nr;
     int l_pytan;
     int pop_odp;
-};
+}*lista;
 
-void wczytaj(){
-
+Student* wczytaj(){
+    int size = 0;
+    cout << "Ile osób będziesz wprowadzać?" << endl;
+    cin >> size;
+    lista = new (size);
 }

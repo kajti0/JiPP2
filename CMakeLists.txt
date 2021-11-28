@@ -25,4 +25,8 @@ add_subdirectory(class3)
 add_subdirectory(class4)
 add_subdirectory(matrixApp)
 add_subdirectory(matrixLib)
+add_subdirectory(Lab5)
+add_subdirectory(konst1)
+add_subdirectory(Lab6)
+add_subdirectory(Lab7)
 
