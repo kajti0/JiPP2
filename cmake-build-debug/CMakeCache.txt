@@ -254,6 +254,12 @@ JiPP_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug
 JiPP_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP
 
 //Value Computed by CMake
+Lab1-4_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/Lab1-4
+
+//Value Computed by CMake
+Lab1-4_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/Lab1-4
+
+//Value Computed by CMake
 Lab5_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/Lab5
 
 //Value Computed by CMake
@@ -266,10 +272,22 @@ Lab6_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/Lab6
 Lab6_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/Lab6
 
 //Value Computed by CMake
-PoleFigury_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/PoleFigury
+Lab8_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/Lab8
 
 //Value Computed by CMake
-PoleFigury_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/PoleFigury
+Lab8_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/Lab8
+
+//Value Computed by CMake
+Notes_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/Lab8/Notes
+
+//Value Computed by CMake
+Notes_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/Lab8/Notes
+
+//Value Computed by CMake
+PoleFigury_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/Lab1-4/PoleFigury
+
+//Value Computed by CMake
+PoleFigury_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/Lab1-4/PoleFigury
 
 //Value Computed by CMake
 Project_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug
@@ -278,34 +296,40 @@ Project_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug
 Project_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP
 
 //Value Computed by CMake
-allocation_basics_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/allocation_basics
+Punkt_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/Lab1-4/Punkt
 
 //Value Computed by CMake
-allocation_basics_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/allocation_basics
+Punkt_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/Lab1-4/Punkt
 
 //Value Computed by CMake
-class1_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/class1
+allocation_basics_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/Lab1-4/allocation_basics
 
 //Value Computed by CMake
-class1_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/class1
+allocation_basics_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/Lab1-4/allocation_basics
 
 //Value Computed by CMake
-class2_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/class2
+class1_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/Lab1-4/class1
 
 //Value Computed by CMake
-class2_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/class2
+class1_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/Lab1-4/class1
 
 //Value Computed by CMake
-class3_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/class3
+class2_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/Lab1-4/class2
 
 //Value Computed by CMake
-class3_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/class3
+class2_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/Lab1-4/class2
 
 //Value Computed by CMake
-class4_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/class4
+class3_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/Lab1-4/class3
 
 //Value Computed by CMake
-class4_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/class4
+class3_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/Lab1-4/class3
+
+//Value Computed by CMake
+class4_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/Lab1-4/class4
+
+//Value Computed by CMake
+class4_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/Lab1-4/class4
 
 //Value Computed by CMake
 dziedziczenie_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/Lab7/dziedziczenie
@@ -314,16 +338,16 @@ dziedziczenie_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-de
 dziedziczenie_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/Lab7/dziedziczenie
 
 //Value Computed by CMake
-errors1_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/errors1
+errors1_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/Lab1-4/errors1
 
 //Value Computed by CMake
-errors1_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/errors1
+errors1_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/Lab1-4/errors1
 
 //Value Computed by CMake
-errors2_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/errors2
+errors2_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/Lab1-4/errors2
 
 //Value Computed by CMake
-errors2_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/errors2
+errors2_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/Lab1-4/errors2
 
 //Value Computed by CMake
 grafika_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/Dywan_Sierpińskiego
@@ -332,28 +356,28 @@ grafika_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/Dy
 grafika_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/Dywan_Sierpińskiego
 
 //Value Computed by CMake
-indicators1_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/indicators1
+indicators1_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/Lab1-4/indicators1
 
 //Value Computed by CMake
-indicators1_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/indicators1
+indicators1_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/Lab1-4/indicators1
 
 //Value Computed by CMake
-indicators2_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/indicators2
+indicators2_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/Lab1-4/indicators2
 
 //Value Computed by CMake
-indicators2_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/indicators2
+indicators2_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/Lab1-4/indicators2
 
 //Value Computed by CMake
-indicators3_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/indicators3
+indicators3_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/Lab1-4/indicators3
 
 //Value Computed by CMake
-indicators3_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/indicators3
+indicators3_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/Lab1-4/indicators3
 
 //Value Computed by CMake
-indicators4_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/indicators4
+indicators4_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/Lab1-4/indicators4
 
 //Value Computed by CMake
-indicators4_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/indicators4
+indicators4_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/Lab1-4/indicators4
 
 //Value Computed by CMake
 indicators_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/indicators
@@ -362,10 +386,10 @@ indicators_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug
 indicators_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/indicators
 
 //Value Computed by CMake
-konst1_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/konst1
+konst1_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/Lab1-4/konst1
 
 //Value Computed by CMake
-konst1_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/konst1
+konst1_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/Lab1-4/konst1
 
 //Value Computed by CMake
 konstruktory_1_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/Lab5/konstruktory_1
@@ -380,10 +404,10 @@ lab7_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/Lab7
 lab7_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/Lab7
 
 //Value Computed by CMake
-maxTab_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/maxTab
+maxTab_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/Lab1-4/maxTab
 
 //Value Computed by CMake
-maxTab_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/maxTab
+maxTab_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/Lab1-4/maxTab
 
 //Value Computed by CMake
 node_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/Lab6/node
@@ -398,34 +422,34 @@ prog1_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/prog
 prog1_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/prog1
 
 //Value Computed by CMake
-randomNumbers_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/randomNumbers
+randomNumbers_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/Lab1-4/randomNumbers
 
 //Value Computed by CMake
-randomNumbers_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/randomNumbers
+randomNumbers_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/Lab1-4/randomNumbers
 
 //Value Computed by CMake
-reverseTab_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/reverseTab
+reverseTab_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/Lab1-4/reverseTab
 
 //Value Computed by CMake
-reverseTab_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/reverseTab
+reverseTab_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/Lab1-4/reverseTab
 
 //Value Computed by CMake
-simpleCalc_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/simpleCalc
+simpleCalc_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/Lab1-4/simpleCalc
 
 //Value Computed by CMake
-simpleCalc_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/simpleCalc
+simpleCalc_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/Lab1-4/simpleCalc
 
 //Value Computed by CMake
-structures1_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/structures_1&2
+structures1_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/Lab1-4/structures_1&2
 
 //Value Computed by CMake
-structures1_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/structures_1&2
+structures1_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/Lab1-4/structures_1&2
 
 //Value Computed by CMake
-structures2_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/structures_3&4
+structures2_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/Lab1-4/structures_3&4
 
 //Value Computed by CMake
-structures2_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/structures_3&4
+structures2_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/Lab1-4/structures_3&4
 
 //Value Computed by CMake
 test_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/Lab5/test
@@ -546,7 +570,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=31
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=34
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

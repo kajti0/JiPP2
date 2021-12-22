@@ -8,6 +8,8 @@
 #include <iostream>
 #include <cmath>
 
+using namespace std;
+
 class Figure{
 protected:
     string color, name;
@@ -17,24 +19,25 @@ class Square: public Figure{
 protected:
     int a;
 public:
-    int area(int a);
-    int perimeter(int a);
+    Square(int x, string y, string z);
+    int area();
+    int perimeter();
 };
 
 class Circle: public Figure{
 protected:
     int r;
 public:
-    int area(int r);
-    int perimeter(int r);
+    double area();
+    double perimeter();
 };
 
 class Triangle: public Figure{
 protected:
-    int a,h;
+    int a,b, c;
 public:
-    int area(int a, int h);
-    int perimeter(int a, int h);
+    double area();
+    int perimeter();
 };
 
 #endif //JIPP_FIGURE_H

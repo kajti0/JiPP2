@@ -4,4 +4,8 @@ project(konstruktory_1)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(konstruktory_1 main.cpp)
+include_directories(inc)
+
+add_executable(konstruktory_1
+        src/main.cpp
+        src/Pojazd.cpp)

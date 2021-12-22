@@ -29,7 +29,7 @@ public:
      * @param name name of point
      */
     Point(string name);
-
+    Point(Point& point);
     /**
      * Update name of point
      * @param name new point name

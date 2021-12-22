@@ -3,3 +3,9 @@
 //
 
 #include "Figure.h"
+
+int main(){
+    Square kwadrat(10, "kwadrat", "zielony");
+    cout << kwadrat.area();
+    return 0;
+}

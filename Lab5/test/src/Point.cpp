@@ -11,7 +11,9 @@ Point::Point(double x, double y, string name) : name(name) {
 Point::Point(string name) : name(name) {
     *x = *y = 0;
 }
-Point::~Point() : {
+Point::~Point(){
+    delete x;
+    delete y;
     cout << "Destruktor wywołany\n";
 }
 
@@ -52,4 +54,11 @@ bool Point::operator!=(const Point &rhs) const {
 
 const string &Point::getName() const {
     return name;
+}
+
+Point::Point(Point& point){
+    x = new double;
+    y = new double;
+    *x = *point.x;
+    *y = *point.y;
 }
