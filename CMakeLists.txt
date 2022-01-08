@@ -11,4 +11,6 @@ add_subdirectory(Lab1-4)
 add_subdirectory(Lab6)
 add_subdirectory(Lab7)
 add_subdirectory(Lab8)
+add_subdirectory(Lab9)
+add_subdirectory(Lab10.1)
 

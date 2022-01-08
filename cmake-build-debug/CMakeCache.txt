@@ -260,6 +260,12 @@ Lab1-4_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/Lab
 Lab1-4_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/Lab1-4
 
 //Value Computed by CMake
+Lab10.1_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/Lab10.1
+
+//Value Computed by CMake
+Lab10.1_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/Lab10.1
+
+//Value Computed by CMake
 Lab5_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/Lab5
 
 //Value Computed by CMake
@@ -276,6 +282,12 @@ Lab8_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/Lab8
 
 //Value Computed by CMake
 Lab8_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/Lab8
+
+//Value Computed by CMake
+Lab9_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/Lab9
+
+//Value Computed by CMake
+Lab9_SOURCE_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/Lab9
 
 //Value Computed by CMake
 Notes_BINARY_DIR:STATIC=C:/Users/kajet/CLionProjects/JiPP/cmake-build-debug/Lab8/Notes
@@ -570,7 +582,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=34
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=38
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

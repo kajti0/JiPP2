@@ -4,9 +4,6 @@
 
 #include "Vector.h"
 
-
-Vector::Vector(): x(0), y(0) {}
-
 Vector::Vector(double x, double y) : x(x), y(y) {}
 
 double Vector::length() {
@@ -16,4 +13,5 @@ double Vector::length() {
 void print(Vector x){
     cout << "{" << x.x << "," << x.y << "}" << endl;
 }
+
 
