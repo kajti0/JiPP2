@@ -4,10 +4,12 @@
 
 #include "lib.h"
 
-int main(){
+int main()
+{
     File plik;
     plik.open();
-    plik.read(5,3);
+    plik.read(0, 13);
+    plik.show();
     return 0;
 }
 
